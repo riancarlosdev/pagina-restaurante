@@ -92,6 +92,25 @@
 
 /*end nav*/
 
+/*box tex*/
+
+header .box-text{
+   width: 923px;
+   height: 67px;
+   background-color: rgba(22, 22, 22, 0.62);
+   z-index: 9999px;
+   position: absolute;
+   margin-top: 327px;
+   margin-left: 121px;
+
+}
+
+header .box-text p{
+   color: #DDDDDD;
+   display: flex;
+   height: 67px;
+   padding: 26px 0 26px 11px;
+}
 
 
 
