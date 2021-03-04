@@ -53,16 +53,27 @@
    float: right;
    display: flex;
    flex-direction: row;
+   padding-top: 23px;
+   align-items: center;
 }
 
 .nav__bar-item a{
    color: #DDDDDD;
    text-decoration: none;
+   font-size: 15px;
+}
+
+.nav__bar-item img{
+   color: #DDDDDD;
+   width: 15px;
+   height: 15px;
+   margin: 0 8px -2px 0;
 }
 
 #nav__btn a{
    text-decoration: none;
    color: #DDDDDD;
+   font-weight: bold;
 }
 
 #nav__btn button{
@@ -70,6 +81,21 @@
    border: none;
    padding: 9px 30px;
    color: #DDDDDD;
+   border-radius: 5px;
+   width: 155px;
+   height: 33px;
 }
+
+.nav__bar-item{
+   margin-right: 50px;
+}
+
+/*end nav*/
+
+
+
+
+
+
 
 
