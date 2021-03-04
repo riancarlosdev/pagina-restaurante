@@ -116,9 +116,6 @@ header .box-text p{
 
 /*main section delivery*/
 
-.delivery{
-
-}
 
 .box__delivery{
    display: flex;
@@ -155,7 +152,7 @@ header .box-text p{
    align-items: center;
    display: inline-block;
    padding: 13px 0 0 0;
-   color:#D0D2D3;
+   color:#DDDDDD;
    text-decoration: none;
    text-transform: uppercase;
    font-size: 16px;
@@ -165,7 +162,85 @@ header .box-text p{
    text-align: center;
    padding-top: 9px;
    font-size: 16px;
-   color: #D0D2D3;
+   color: #DDDDDD;
 }
+
+/*end section delivery*/
+
+/*section cardapio*/
+
+section.cardapio{
+   background: url(../assets/imga.png);
+   width: 1440px;
+   height: 650px;
+   margin: 82px auto 0;
+}
+
+.cardapio .conteudo-cardapio .titulo h2{
+   color: #FF8900;
+   font-size: 40px;
+   text-transform: uppercase;
+   text-decoration: underline;
+   text-align-last: center;
+   padding-top: 94px;
+   padding-bottom: 60px;
+}
+
+.cardapio .conteudo-cardapio .box-cardapio{
+   display: flex;
+   margin: 0 230px;
+}
+
+.cardapio .text-cardapio{
+   margin-top: 21px;
+}
+
+.cardapio .text-cardapio p{
+   background: rgba(0, 0, 0, 0.39);
+   color: #DDDDDD;
+   font-size: 20px;
+   padding: 8px 10px;
+   text-align: center;
+   line-height: 35px;
+   
+   width: 439px;
+   height: 227px;
+}
+
+.cardapio .conteudo-cardapio .box-cardapio img{
+   margin-right: 126px;
+}
+
+.cardapio .conteudo-cardapio .box-cardapio .btn-cardapio{
+   background: #FF8900;
+   width: 279px;
+   height: 44px;
+   text-align-last: center;
+   padding: 10px 30px;
+   margin: 15px auto;
+}
+
+.cardapio .conteudo-cardapio .box-cardapio .btn-cardapio a{
+   color: #DDDDDD;
+   text-decoration: none;
+   font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
